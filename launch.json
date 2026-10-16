@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "RyfiniteToken",
+    "name": "Ryfinite Token",
+    "symbol": "RFN",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "10000000000000000000",
+    "remainderTo": "0xd380a8b40fcea7c0a699ff0d8232a264b37a2f9f"
+  },
+  "notes": "RyfiniteToken is a plain OpenZeppelin ERC20 named Ryfinite Token (RFN) with 18 decimals. Its constructor takes no arguments and mints the fixed supply of 1,000,000,000 RFN (1e27 minor units) once to msg.sender, the factory. There are no mint or burn functions after construction, no owner or administrative roles, no fees, pauses or blacklists, and no upgrade mechanism, so launch flows move exactly the amounts transferred. No application contracts are deployed."
+}
